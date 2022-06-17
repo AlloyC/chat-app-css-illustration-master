@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Chat app css illustration master]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <article class="phone-section">
+    <section class="bg-light showcase-section">
+      <header class="bg-gradient-violet chat-heading">
+            <img class="chevy chevy-left" src="images/chevron-right-solid.svg" alt="chevron-left-icon" />
+            <img class="profile-pic" src="./images/avatar.jpg" alt="profile picture" />
+            <div class="name-available">
+              <h1 class="name cl-light-grayish">Samuel Green</h1>
+              <h2 class="available cl-pale-violet">Available to Walk</h2>
+            </div>
+            <img class="menu" src="images/ellipsis-vertical-solid.svg" alt="menu-icon" />
+          </header>
+          <section class=" chat-content">
+            <p class="chat bg-grayish-blue cl-moderate-violet">That sounds great. I’d be happy to discuss more.</p>
+            <p class="chat bg-grayish-blue cl-moderate-violet">Could you send over some pictures of your dog, please?</p>
+            <div class="dog-imgs">
+              <img class="dog-img" src="images/dog-image-3.jpg" alt="dog image" />
+              <img class="dog-img" src="images/dog-image-2.jpg" alt="dog image" />
+              <img class="dog-img" src="images/dog-image-1.jpg" alt="dog image" />
+            </div>
+            <p class="chat bg-white">Here are a few pictures. She’s a happy girl!</p>
+            <p class="chat bg-white">Can you make it?</p>
+            <p class="chat bg-grayish-blue cl-moderate-violet">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+             <div class="bg-gradient-violet-inverse">
+              <input type="radio" name="walk-choice" id="minute" />
+              <label for="minute">30 minute walk <span class="space">$29</span></label>
+            </div>
+            <div class="bg-gradient-violet-inverse">
+              <input type="radio" name="walk-choice" id="hour" />
+              <label for="hour">1 hour walk <span class="space">$49</span></label>
+            </div> 
+          </section>
+          <div class="text-submit bg-light">
+            <input type="text" name="text" id="text" placeholder="Type a message…" value="" />
+            <button class="submit bg-dark-saturated-violet" type="submit"><img class="chevy chevy-right" src="images/chevron-right-solid.svg" alt="chevron-right-icon" /></button>
+          </div>
+      </section>    
+    </article>
+    <section class="main-content">
+      <header class="content-header">
+        <h1 class="heading">Simple booking</h1>
+      </header>
+      <p class="content-paragragh">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Okeoghene John</a>.
+  </footer>
+</body>
+</html>
