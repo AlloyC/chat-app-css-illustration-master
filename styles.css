@@ -342,11 +342,11 @@ input[type='radio']:checked + label::after{
       flex-direction: row;
     }
     .phone-section{
-      height: 98vh;
+      min-height: 98vh;
       flex: 1;
     }
     .main-content{
-      height: 99vh;
+      min-height: 99vh;
       margin: auto;
       padding: 0;
       align-items: flex-start;
