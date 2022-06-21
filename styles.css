@@ -130,11 +130,45 @@
   font-size: 8.4px;
   line-height: 1.4;
   width: 56%;
+  opacity: 0;
   border-radius: 12px 12px 2px 12px;
+  animation-name: chatting;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  position: relative;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
 }
 
-.chat:first-child{
-  margin-top: 0;
+.chat-a{
+ animation-delay: 1s;
+}
+
+.chat-b{
+animation-delay: 3s;
+}
+
+.chat-c{
+animation-delay: 7s;
+}
+
+.chat-d{
+animation-delay: 9s;
+}
+
+.chat-e{
+animation-delay: 11s;
+}
+
+@keyframes chatting{
+  0%{
+    opacity: 0;
+    top: 2px;
+  }
+  100%{
+    opacity: 100%;
+    top: 0;
+  }
 }
 
 .chat:nth-child(4),
@@ -166,6 +200,7 @@ input[type='radio']:checked + label::after{
   height: 4px;
   width: 4px;
   border: 5px solid #ffffffab;
+  
 }
 .space{
   position: absolute;
@@ -179,7 +214,7 @@ input[type='radio']:checked + label::after{
 
 .text-submit{
   position: relative;
-  bottom: -10px;
+  bottom: -2px;
 }
 
 #text{
@@ -250,6 +285,14 @@ input[type='radio']:checked + label::after{
   float: right;
   margin: 8px 10px 8px 0;
   border-radius: 20%;
+  opacity: 0;
+  animation-name: chatting;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  position: relative;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
 }
 
    /* UTILITY BACKGROUND CLASS */
@@ -279,8 +322,30 @@ input[type='radio']:checked + label::after{
       border-radius: 10px 10px 10px 4px;
       font-size: 8.4px;
       color: #ffffffab;
-      position: relative;          
+      position: relative;  
+      
+    
    }
+   
+.chat-f {
+     opacity: 0;
+     animation-name: chatting;
+     animation-iteration-count: 1;
+     animation-duration: 1s;
+     animation-timing-function: ease-in;
+     animation-fill-mode: forwards;
+     animation-delay: 13s;
+}
+
+.chat-g{
+     opacity: 0;
+     animation-name: chatting;
+     animation-iteration-count: 1;
+     animation-duration: 1s;
+     animation-timing-function: ease-in;
+     animation-fill-mode: forwards;
+     animation-delay: 15s;
+}
 
   .bg-gradient-violet-inverse label::after{
     content: '';
