@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [()]
+- Solution URL: [(https://www.frontendmentor.io/solutions/responsive-chat-app-landing-page-XF1jcHVDgl)]
 34
 - Live Site URL: [(https://alloyc.github.io/chat-app-css-illustration-master/)]
 35
